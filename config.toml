@@ -1,3 +1,44 @@
-baseURL = "http://example.org/"
+## davo.li configuration 
+
+baseURL = "https://davoli.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "docs"
+
+author = "Antonio Davoli"
+title = "Antonio Davoli"
+
+theme = "hugo-goa" 
+
+## Site Settings
+[params]
+author = "Antonio Davoli"
+intro = "Software Engineer"
+description = "Now working on in-memory datastore @awscloud."
+# authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+# Site Meta Settings
+[params.meta]
+description = "Antonio Davoli Personal Page"
+keywords = "antoniodavoli,antonio,davoli,webpage,personalpage"
+
+## Social Accounts
+[params.social]
+github = "davoli"
+twitter = "antoniodavoli"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Antonio Davoli. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+	url = "/about/"
